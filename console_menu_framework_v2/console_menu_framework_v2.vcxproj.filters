@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{ffa24e9e-47db-47ce-848b-7cbe877f4dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Items">
+      <UniqueIdentifier>{a477a8b9-605f-476d-97a6-7c0dbb219b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Items\Item Base">
+      <UniqueIdentifier>{e2eda88b-0a3d-4911-9edd-3e53baa1e47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Items\Bool Item">
+      <UniqueIdentifier>{d03ac154-0ae9-4c38-b948-2f4960d78389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Items\Int Item">
+      <UniqueIdentifier>{6a67d4d1-d7a9-459b-838c-7f60baf27c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Items\Float Item">
+      <UniqueIdentifier>{b7b1ceca-5928-4475-b226-8166b2e6443e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Items\List Item">
+      <UniqueIdentifier>{fb527495-097e-4737-811e-fad4192544b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_item_base.h">
+      <Filter>Menu\Items\Item Base</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_items.h">
+      <Filter>Menu\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_utils.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="termcolor.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="bool_item.h">
+      <Filter>Menu\Items\Bool Item</Filter>
+    </ClInclude>
+    <ClInclude Include="int_item.h">
+      <Filter>Menu\Items\Int Item</Filter>
+    </ClInclude>
+    <ClInclude Include="list_item.h">
+      <Filter>Menu\Items\List Item</Filter>
+    </ClInclude>
+    <ClInclude Include="float_item.h">
+      <Filter>Menu\Items\Float Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_item_base.cpp">
+      <Filter>Menu\Items\Item Base</Filter>
+    </ClCompile>
+    <ClCompile Include="bool_item.cpp">
+      <Filter>Menu\Items\Bool Item</Filter>
+    </ClCompile>
+    <ClCompile Include="int_item.cpp">
+      <Filter>Menu\Items\Int Item</Filter>
+    </ClCompile>
+    <ClCompile Include="float_item.cpp">
+      <Filter>Menu\Items\Float Item</Filter>
+    </ClCompile>
+    <ClCompile Include="list_item.cpp">
+      <Filter>Menu\Items\List Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
